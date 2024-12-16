@@ -41,6 +41,7 @@ int main() {
     int opcao;
 
     do {
+        system("cls");
         cout << "\n--- Maquina de Venda de Bebidas ---\n";
         cout << "1. Ver Bebidas\n";
         cout << "2. Inserir Moeda\n";
@@ -85,6 +86,9 @@ int main() {
                 cout << "Opcao invalida. Tente novamente.\n";
                 break;
         }
+        cout << "pressione ENTER para continuar...";
+        cin.ignore();
+        cin.get();
     } while (opcao != 6);
 
     return 0;
