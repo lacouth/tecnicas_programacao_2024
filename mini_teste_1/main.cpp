@@ -92,7 +92,9 @@ void verSaldo() {
 // Função para limpar a tela
 void limparTela() {
     // Limpa a tela (funciona para a maioria dos sistemas)
-    cout << "\033[2J\033[1;1H";
+    //cout << "\033[2J\033[1;1H";
+    system("clear"); // Funciona no linux
+    //system("cls"); // Funciona no windows
 }
 
 // Função para pausar e aguardar o Enter do usuário
