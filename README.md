@@ -1,1 +1,1 @@
-# tecnicas_programacao_2024
+# tecnicas_programacao_2025
