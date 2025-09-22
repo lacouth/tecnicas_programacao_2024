@@ -20,7 +20,7 @@ int main() {
     int matriz1[2][COLUNAS] = {{1, 2, 3}, {4, 5, 6}};
     
     // Teste 1: Multiplicando a primeira linha por 2
-    multiplicaLinha(matriz1, 2, 3, 0, 2);
+    multiplicaLinha(matriz1, 2, 0, 2);
     assert(matriz1[0][0] == 2);  // 1 * 2 = 2
     assert(matriz1[0][1] == 4);  // 2 * 2 = 4
     assert(matriz1[0][2] == 6);  // 3 * 2 = 6
@@ -29,7 +29,7 @@ int main() {
     assert(matriz1[1][2] == 6);
 
     // Teste 2: Multiplicando a segunda linha por -1
-    multiplicaLinha(matriz1, 2, 3, 1, -1);
+    multiplicaLinha(matriz1, 2, 1, -1);
     assert(matriz1[1][0] == -4); // 4 * -1 = -4
     assert(matriz1[1][1] == -5); // 5 * -1 = -5
     assert(matriz1[1][2] == -6); // 6 * -1 = -6
