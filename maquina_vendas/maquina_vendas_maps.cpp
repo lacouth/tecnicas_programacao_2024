@@ -8,9 +8,9 @@ using namespace std;
 
 const string SENHA_ADMIN = "admin123"; 
 
-void mostrarBebidas(const map<int, string>& nomes,
-                    const map<int, double>& precos,
-                    const map<int, int>& estoque);
+void mostrarBebidas(map<int, string>& nomes,
+                    map<int, double>& precos,
+                    map<int, int>& estoque);
 
 void comprarBebida(int codigo, int quantidade, double& saldo,
                    const map<int, string>& nomes,
@@ -114,9 +114,9 @@ int main() {
     return 0;
 }
 
-void mostrarBebidas(const map<int, string>& nomes,
-                    const map<int, double>& precos,
-                    const map<int, int>& estoque) {
+void mostrarBebidas(map<int, string>& nomes,
+                    map<int, double>& precos,
+                    map<int, int>& estoque) {
     
 }
 
@@ -152,7 +152,8 @@ void sacarSaldo(double& saldo) {
 }
 
 void limparTela() {
-    system("clear");
+    system("clear"); 
+ // system("cls"); //para o windows
 }
 
 void pausar() {
