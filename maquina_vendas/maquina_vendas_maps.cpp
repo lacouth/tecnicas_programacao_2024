@@ -59,7 +59,7 @@ int main() {
         cout << "3. Comprar Bebida\n";
         cout << "4. Ver Saldo\n";
         cout << "5. Sacar Saldo\n";
-        cout << "6. Sair\n";
+        cout << "0. Sair\n";
         cout << "Escolha uma opção: ";
         cin >> opcao;
 
