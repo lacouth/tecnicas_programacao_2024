@@ -24,7 +24,7 @@ void limparTela();
 void pausar();
 
 bool autenticarAdmin();
-void reabastecerEstoque(map<int, int>& estoque, const map<int, string>& nomes);
+void reabastecerEstoque(map<int, int>& estoque, map<int, string>& nomes);
 void adicionarNovoProduto(map<int, string>& nomes,
                           map<int, double>& precos,
                           map<int, int>& estoque);
@@ -176,7 +176,7 @@ bool autenticarAdmin() {
     }
 }
 
-void reabastecerEstoque(map<int, int>& estoque, const map<int, string>& nomes) {
+void reabastecerEstoque(map<int, int>& estoque, map<int, string>& nomes) {
    
 }
 
