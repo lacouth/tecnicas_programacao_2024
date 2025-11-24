@@ -13,8 +13,8 @@ void mostrarBebidas(map<int, string>& nomes,
                     map<int, int>& estoque);
 
 void comprarBebida(int codigo, int quantidade, double& saldo,
-                   const map<int, string>& nomes,
-                   const map<int, double>& precos,
+                   map<int, string>& nomes,
+                   map<int, double>& precos,
                    map<int, int>& estoque);
 
 void inserirMoedas(double valor, double& saldo);
@@ -121,8 +121,8 @@ void mostrarBebidas(map<int, string>& nomes,
 }
 
 void comprarBebida(int codigo, int quantidade, double& saldo,
-                   const map<int, string>& nomes,
-                   const map<int, double>& precos,
+                   map<int, string>& nomes,
+                   map<int, double>& precos,
                    map<int, int>& estoque) {
 
    
